@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8b400;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel img {
+    width: 300px;
+    height: 200px;
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: #f8b400;
+    padding: 1rem;
+    text-align: center;
+}
